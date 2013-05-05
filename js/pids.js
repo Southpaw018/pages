@@ -5,7 +5,7 @@ $(document).ready(function() {
 	//Init rail slider
 	$('#rail-status').slidesjs({
 		width: 409,
-		height: 266,
+		height: 245,
 		navigation: {active: false},
 		play: {
 			active: false,

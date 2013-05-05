@@ -138,9 +138,10 @@ body {
 }
 
 .slidesjs-pagination {
-	margin: 6px 0 0;
-	float: right;
+	margin: auto;
+	padding: 0;
 	list-style: none;
+	display: table;
 }
 
 .slidesjs-pagination li {
@@ -161,11 +162,11 @@ body {
 
 .slidesjs-pagination li a.active,
 .slidesjs-pagination li a:hover.active {
-	background-position: 0 -13px;
+	background-position: 0 -12px;
 }
 
 .slidesjs-pagination li a:hover {
-	background-position: 0 -26px;
+	background-position: 0 -24px;
 }
 
 /*Clock*/
