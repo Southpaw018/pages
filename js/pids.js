@@ -3,9 +3,15 @@ var count = 60;
 
 $(document).ready(function() {
 	//Init rail slider
-	$('#rail-status').slides({
-		play: 5000,
-		preload: true
+	$('#rail-status').slidesjs({
+		width: 409,
+		height: 266,
+		navigation: {active: false},
+		play: {
+			active: false,
+			interval: 5000,
+			auto: true
+		}
 	});
 
 	//Weather

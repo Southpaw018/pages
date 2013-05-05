@@ -64,7 +64,7 @@
 	</table>
 
 	<div id="mid-wrapper">
-		<div id="rail-status"><div class="slides_container">
+		<div id="rail-status">
 		<?php
 		$incidentdata = @simplexml_load_file("http://api.wmata.com/Incidents.svc/Incidents?api_key=$api_key");
 		if (count($incidentdata->Incidents->Incident) == 0)
@@ -108,7 +108,7 @@
 			}
 		}
 		?>
-		</div></div>
+		</div>
 
 		<div id="weather">
 		<?php
@@ -118,7 +118,7 @@
 		if ($accuweather->getElementById('detail-now')) {$current = $accuweather->saveXML($accuweather->getElementById('detail-now'));}
 		$current = str_replace("&#13;","",$current);
 		//$current = str_replace("src=\"/adc2010/images/icons-wind/","src=\"http://www.accuweather.com/adc2010/images/icons-wind/",$current);
-		echo($current);
+		//echo($current);
 		?>
 		</div>
 	</div>
