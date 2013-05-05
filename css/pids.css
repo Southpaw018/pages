@@ -3,13 +3,13 @@ div {
 }
 
 body {
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 }
 
 #wrapper {
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 	width: 1024px;
 	height: 768px;
 	background-color: #F2EDE3;
@@ -29,7 +29,7 @@ body {
 }
 
 #pids tr {
-		height: 60px;
+		height: 60;
 }
 
 #pids th {
@@ -40,7 +40,7 @@ body {
 #pids th, #pids td {
 	font-size: 72px;
 	font-family: sans-serif;
-	line-height: 60px;
+	line-height: 60;
 }
 
 #pids td {
@@ -55,7 +55,7 @@ body {
 
 #weather {
 	width: 595px;
-	font-family:  verdana,arial,sans-serif;
+	font-family: verdana,arial,sans-serif;
 	font-size: 12px;
 	padding: 0;
 	margin: 0;
@@ -64,7 +64,7 @@ body {
 }
 
 #weather ul.stats {
-	font-size: 10px;
+	font-size: 10;
 	line-height: 14px;
 	color: #8E8E8E;
 }
@@ -94,13 +94,13 @@ body {
 	width: 409px;
 	height: 266px;
 	background: #000000;
-	padding: 10px;
+	padding: 10;
 	position: relative;
 }
 
 #rail-status div {
-	/*margin: 0px;
-	padding: 0px;
+	/*margin: 0;
+	padding: 0;
 	width: 409px;
 	height: 266px;*/
 	width: 409px;
@@ -110,7 +110,7 @@ body {
 	color: #fffd13;
 	font-family: sans-serif;
 	font-size: 18px;
-	margin-top: 0px;
+	margin-top: 0;
 	margin-bottom: 1em;
 	list-style-type: none;
 }
@@ -118,7 +118,7 @@ body {
 #rail-status p.line {
 	line-height: 25px;
 	font-size: 72px;
-	margin-bottom: 0px;
+	margin-bottom: 0;
 }
 
 #rail-status span.RD {
@@ -137,43 +137,36 @@ body {
 	color: #ff7f00;
 }
 
-/*#rail-status ul.pagination {
-	position: absolute;
-	bottom: 0px;
-	margin: auto;
-	width: 30px;
+.slidesjs-pagination {
+	margin: 6px 0 0;
+	float: right;
+	list-style: none;
 }
-#rail-status ul.pagination li {
+
+.slidesjs-pagination li {
 	float: left;
-}*/
-
-#rail-status ul.pagination {
-	margin: auto;
-	padding: 0px;
-	width: 84px;
-	list-style-type: none;
+	margin: 0 1px;
 }
 
-#rail-status ul.pagination li {
-	float: left;
-	margin: 0px 1px;
-}
-
-#rail-status ul.pagination li a {
+.slidesjs-pagination li a {
 	display: block;
-	width: 12px;
-	height: 0px;
-	padding-top: 12px;
+	width: 13px;
+	height: 0;
+	padding-top: 13px;
 	background-image: url(img/pagination.png);
-	background-position: 0px 0px;
+	background-position: 0 0;
 	float: left;
 	overflow: hidden;
 }
 
-#rail-status ul.pagination li.current a {
-	background-position: 0px -12px;
+.slidesjs-pagination li a.active,
+.slidesjs-pagination li a:hover.active {
+	background-position: 0 -13px
 }
 
+.slidesjs-pagination li a:hover {
+	background-position: 0 -26px
+}
 
 /*Clock*/
 #clock {
@@ -207,13 +200,13 @@ body {
 	width: 615px;
 	height: 168px;
 	background: #000000;
-	padding: 10px;
+	padding: 10;
 }
 
 #bus-status p {
 	color: #fffd13;
 	font-family: sans-serif;
 	font-size: 18px;
-	margin-top: 0px;
+	margin-top: 0;
 }
 
