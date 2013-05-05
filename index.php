@@ -3,7 +3,8 @@
 <head>
 	<title>CC Tracker</title>
 	<meta charset="UTF-8" />
-	<!--<meta http-equiv="refresh" content="60" />-->
+	<!--Our resources-->
+	<link rel="stylesheet" href="css/pids.css" />
 	<script type="text/javascript" src="js/pids.js"></script>
 
 	<!--Accuweather stylesheets cut down for necessary styles-->
