@@ -10,7 +10,8 @@ $(document).ready(function() {
 		play: {
 			active: false,
 			interval: 5000,
-			auto: true
+			auto: true,
+			effect: "fade"
 		}
 	});
 
