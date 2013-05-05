@@ -12,6 +12,12 @@ $(document).ready(function() {
 			interval: 5000,
 			auto: true,
 			effect: "fade"
+		},
+		effect: {
+			fade: {
+				speed: 800,
+				crossfade: true
+			}
 		}
 	});
 

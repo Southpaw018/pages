@@ -118,7 +118,7 @@
 		if ($accuweather->getElementById('detail-now')) {$current = $accuweather->saveXML($accuweather->getElementById('detail-now'));}
 		$current = str_replace("&#13;","",$current);
 		//$current = str_replace("src=\"/adc2010/images/icons-wind/","src=\"http://www.accuweather.com/adc2010/images/icons-wind/",$current);
-		//echo($current);
+		echo($current);
 		?>
 		</div>
 	</div>
