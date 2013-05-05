@@ -52,6 +52,7 @@ body {
 
 #weather {
 	width: 595px;
+	height: 286px;
 	font-family: verdana,arial,sans-serif;
 	font-size: 12px;
 	padding: 0;

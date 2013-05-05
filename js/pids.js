@@ -21,9 +21,6 @@ $(document).ready(function() {
 		}
 	});
 
-	//Weather
-	$('#weather div').load('accuweather.php');
-
 	//Page reload countdown
 	//var interval = setInterval("countdown()",1000);
 });
@@ -36,3 +33,6 @@ function countdown() {
 	$('#countdown').text(count);
 	count--;
 };
+
+//Accuweather hack
+$.fn.flash = function(args) {acm_hasFlash = false; return false;}
