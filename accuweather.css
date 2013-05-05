@@ -1,0 +1,363 @@
+body#forecast-extended #details {
+     padding: 10px 8px;
+}
+
+body#forecast-extended #detail-now {
+     border: 1px solid #BFBFBF;
+     overflow: hidden;
+     position: relative;
+}
+
+body#forecast-extended #detail-now .bg {
+     background-repeat: no-repeat;
+     overflow: hidden;
+}
+
+body#forecast-extended #detail-now .forecast {
+     background-repeat: no-repeat;
+     float: left;
+     height: 284px;
+     position: relative;
+     width: 593px;
+}
+
+body#forecast-extended #detail-now .info {
+     position: absolute;
+     text-align: center;
+     top: 120px;
+     width: 318px;
+     z-index: 4;
+}
+
+body#forecast-extended #detail-now .cond {
+     color: #000000;
+     display: block;
+     font-size: 17px;
+}
+
+body#forecast-extended #detail-now .temp {
+     color: #000000;
+     display: block;
+     font-size: 70px;
+     letter-spacing: -5px;
+     padding-left: 15px;
+}
+
+body#forecast-extended #detail-now .temp .lo {
+     font-size: 20px;
+     letter-spacing: 0px;
+}
+
+body#forecast-extended #detail-now .realfeel {
+     font-size: 10px;
+}
+
+body#forecast-extended #detail-now .more-info {
+     background: url("http://vortex.accuweather.com/adc2010/images/page-forecast-extended/bg-detail-now-more-info.png") no-repeat scroll 0% 0% transparent;
+     float: right;
+     height: 271px;
+     margin-top: 6px;
+     padding-left: 10px;
+     width: 262px;
+}
+
+body#forecast-extended #detail-now .more-info .stats {
+     padding: 16px;
+}
+
+body#forecast-extended #detail-now .icon {
+     height: 150px;
+     left: 44px;
+     position: absolute;
+     top: -40px;
+     width: 250px;
+}
+
+body#forecast-extended #detail-day-night {
+     overflow: hidden;
+}
+
+body#forecast-extended #detail-day-night .day, body#forecast-extended #detail-day-night .night {
+     float: left;
+     width: 292px;
+}
+
+body#forecast-extended #detail-day-night .bg {
+     background-repeat: no-repeat;
+     border: 1px solid #BFBFBF;
+     height: 131px;
+     overflow: hidden;
+     position: relative;
+     width: 290px;
+}
+
+body#forecast-extended #detail-day-night .info {
+     left: 140px;
+     position: absolute;
+     text-align: center;
+     z-index: 4;
+}
+
+body#forecast-extended #detail-day-night h4 {
+     color: #000000;
+     font-size: 12px;
+}
+
+body#forecast-extended #detail-day-night .muted h4 {
+     color: #C9BFAB;
+}
+
+body#forecast-extended #detail-day-night .content {
+     background-color: #FCFBF9;
+     border: 1px solid #F5F4F3;
+     padding: 10px;
+}
+
+body#forecast-extended #detail-day-night .content .desc {
+     height: 115px;
+     overflow: hidden;
+}
+
+body#forecast-extended #detail-day-night .content .desc p {
+     font-size: 11px;
+}
+
+body#forecast-extended #detail-hourly .premium-info, body#forecast-extended #detail-precip .premium-info {
+     padding: 30px 40px;
+}
+
+body#forecast-extended #detail-hourly .premium-info .content, body#forecast-extended #detail-precip .premium-info .content {
+     width: 320px;
+}
+
+#detail-day-night .icon {
+     background-repeat: no-repeat;
+     height: 120px;
+     left: -40px;
+     position: absolute;
+     top: -30px;
+     width: 200px;
+}
+
+body#forecast-extended .forecast-status {
+     margin-top: 2px;
+}
+
+body#forecast-extended .forecast-status-1 .nub {
+     left: 58px;
+}
+
+body#forecast-extended .forecast-status-2 .nub {
+     left: 180px;
+}
+
+body#forecast-extended .forecast-status-3 .nub {
+     left: 298px;
+}
+
+body#forecast-extended .forecast-status-4 .nub {
+     left: 416px;
+}
+
+body#forecast-extended .forecast-status-5 .nub {
+     left: 534px;
+}
+
+body#forecast-extended #detail-day-night .cond {
+     display: block;
+     font-size: 12px;
+     margin-bottom: -8px;
+     padding-top: 24px;
+}
+
+body#forecast-extended #detail-day-night .lo, body#forecast-extended #detail-day-night .hi {
+     font-size: 12px;
+}
+
+body#forecast-extended #detail-day-night .temp {
+     color: #000000;
+     font-size: 50px;
+}
+
+body#forecast-extended #detail-day-night .realfeel {
+     display: block;
+     font-size: 10px;
+}
+
+body#forecast-extended #detail-hourly {
+     -moz-border-bottom-colors: none;
+     -moz-border-left-colors: none;
+     -moz-border-right-colors: none;
+     -moz-border-top-colors: none;
+     background: none repeat scroll 0% 0% #FCFBF9;
+     border-color: #BFBFBF #F5F4F3 #F5F4F3;
+     border-image: none;
+     border-right: 1px solid #F5F4F3;
+     border-style: solid;
+     border-width: 1px;
+     padding: 10px 4px;
+     position: relative;
+}
+
+body#forecast-extended #detail-hourly tr.temp td {
+     font-weight: bold;
+}
+
+body#forecast-extended #detail-hourly tr.realfeel td {
+     font-size: 10px;
+     font-weight: bold;
+}
+
+body#forecast-extended #detail-hourly .g-nav li {
+     background-position: 0px 4px;
+}
+
+body#forecast-extended .arrow-small-left, body#forecast-extended .arrow-small-right {
+     top: 8px;
+}
+
+body#forecast-extended .arrow-small-right {
+     right: 2px;
+}
+
+body#forecast-extended #detail-hourly .arrow-small-left {
+     left: 85px;
+}
+
+body#forecast-extended #detail-hourly table.data tbody th {
+     overflow: hidden;
+     white-space: normal;
+     width: 80px;
+}
+
+body#forecast-extended table.data tbody td {
+     width: 48px;
+}
+
+body#forecast-extended #detail-precip {
+     -moz-border-bottom-colors: none;
+     -moz-border-left-colors: none;
+     -moz-border-right-colors: none;
+     -moz-border-top-colors: none;
+     background: none repeat scroll 0% 0% #FCFBF9;
+     border-color: #BFBFBF #F5F4F3 #F5F4F3;
+     border-image: none;
+     border-right: 1px solid #F5F4F3;
+     border-style: solid;
+     border-width: 1px;
+     padding: 10px 4px;
+     position: relative;
+}
+
+body#forecast-extended #detail-precip table.data {
+     width: 100%;
+}
+
+body#forecast-extended #detail-precip table.data tbody th {
+     font-weight: bold;
+     width: 50px;
+}
+
+body#forecast-extended #detail-precip table.data thead th {
+     white-space: nowrap;
+}
+
+body#forecast-extended #detail-precip table.data tbody td {
+     font-weight: bold;
+}
+
+body#forecast-extended #detail-precip .arrow-small-left {
+     left: 60px;
+}
+
+.wind-box-sm {
+     background: url("http://vortex.accuweather.com/adc2010/images/bg-wind-sm.png") repeat scroll 0% 0% transparent;
+     height: 76px;
+     overflow: visible;
+     position: relative;
+     width: 84px;
+}
+
+.wind-box-sm .wind-arm {
+     left: 0px;
+     position: absolute;
+     top: 0px;
+     z-index: 10;
+}
+
+.wind-box-sm p {
+     font-size: 8px ! important;
+     font-weight: bold;
+     text-align: center;
+     width: 50px;
+}
+
+.wind-box-sm .n {
+     left: 18px;
+     position: absolute;
+     top: 2px;
+}
+
+.wind-box-sm .e {
+     left: 40px;
+     position: absolute;
+     top: 26px;
+}
+
+.wind-box-sm .s {
+     bottom: 10px;
+     left: 18px;
+     position: absolute;
+}
+
+.wind-box-sm .w {
+     left: -6px;
+     position: absolute;
+     top: 26px;
+}
+
+.wind-box-lg {
+     /*background: url("http://vortex.accuweather.com/adc2010/images/bg-wind-lg.jpg") repeat scroll 0% 0% transparent;*/
+     height: 138px;
+     overflow: visible;
+     position: relative;
+     width: 260px;
+}
+
+.wind-box-lg .wind-arm {
+     position: absolute;
+     top: 4px;
+     z-index: 10;
+}
+
+.wind-box-lg p {
+     font-size: 9px ! important;
+     font-weight: bold;
+     text-align: center;
+     width: 50px;
+}
+
+.wind-box-lg .n {
+     left: 97px;
+     position: absolute;
+     top: 32px;
+}
+
+.wind-box-lg .e {
+     left: 128px;
+     position: absolute;
+     top: 64px;
+}
+
+.wind-box-lg .s {
+     bottom: 30px;
+     left: 97px;
+     position: absolute;
+}
+
+.wind-box-lg .w {
+     left: 63px;
+     position: absolute;
+     top: 64px;
+}
+
