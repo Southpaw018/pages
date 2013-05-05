@@ -29,7 +29,7 @@ body {
 }
 
 #pids tr {
-		height: 60;
+		height: 60px;
 }
 
 #pids th {
@@ -40,7 +40,7 @@ body {
 #pids th, #pids td {
 	font-size: 72px;
 	font-family: sans-serif;
-	line-height: 60;
+	line-height: 60px;
 }
 
 #pids td {
@@ -64,7 +64,7 @@ body {
 }
 
 #weather ul.stats {
-	font-size: 10;
+	font-size: 10px;
 	line-height: 14px;
 	color: #8E8E8E;
 }
@@ -94,7 +94,7 @@ body {
 	width: 409px;
 	height: 266px;
 	background: #000000;
-	padding: 10;
+	padding: 10px;
 	position: relative;
 }
 
@@ -153,7 +153,7 @@ body {
 	width: 13px;
 	height: 0;
 	padding-top: 13px;
-	background-image: url(img/pagination.png);
+	background-image: url(../img/pagination.png);
 	background-position: 0 0;
 	float: left;
 	overflow: hidden;
@@ -161,11 +161,11 @@ body {
 
 .slidesjs-pagination li a.active,
 .slidesjs-pagination li a:hover.active {
-	background-position: 0 -13px
+	background-position: 0 -13px;
 }
 
 .slidesjs-pagination li a:hover {
-	background-position: 0 -26px
+	background-position: 0 -26px;
 }
 
 /*Clock*/
@@ -200,7 +200,7 @@ body {
 	width: 615px;
 	height: 168px;
 	background: #000000;
-	padding: 10;
+	padding: 10px;
 }
 
 #bus-status p {
