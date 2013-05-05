@@ -16,16 +16,13 @@ body {
 	position: absolute;
 }
 
-#mid-wrapper {
-	margin-bottom: 3px;
-}
+#mid-wrapper {}
 
 /*WMATA PIDS*/
 #pids {
 	width: 100%;
 	background-color: #000000;
 	padding: 15px 25px;
-	margin-bottom: 3px;
 }
 
 #pids tr {
@@ -60,7 +57,7 @@ body {
 	padding: 0;
 	margin: 0;
 	color: #333333;
-	background: #F2EDE3;
+	background-color: #000000;
 }
 
 #weather ul.stats {
@@ -98,13 +95,7 @@ body {
 	position: relative;
 }
 
-#rail-status div {
-	/*margin: 0;
-	padding: 0;
-	width: 409px;
-	height: 266px;*/
-	width: 409px;
-}
+#rail-status div {}
 
 #rail-status p {
 	color: #fffd13;
@@ -173,7 +164,9 @@ body {
 #clock {
 	font-family: sans-serif;
 	text-align: center;
-	padding-top: 34px;
+	padding: 36px 0;
+	background-color: #000000;
+	color: #bbbbbb;
 }
 
 #clock p {
