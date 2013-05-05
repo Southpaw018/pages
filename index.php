@@ -3,9 +3,6 @@
 <head>
 	<title>CC Tracker</title>
 	<meta charset="UTF-8" />
-	<!--Our resources-->
-	<link rel="stylesheet" href="css/pids.css" />
-	<script type="text/javascript" src="js/pids.js"></script>
 
 	<!--Accuweather stylesheets cut down for necessary styles-->
 	<link rel="stylesheet" href="css/pages.css" />
@@ -13,6 +10,10 @@
 
 	<script type="text/javascript" src="js/jquery-2.0.0.min.js"></script>
 	<script type="text/javascript" src="js/jquery.slides.min.js"></script>
+
+	<!--Our resources-->
+	<link rel="stylesheet" href="css/pids.css" />
+	<script type="text/javascript" src="js/pids.js"></script>
 </head>
 
 <body id="forecast-extended" class="forecast">
