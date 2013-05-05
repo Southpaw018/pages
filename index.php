@@ -4,14 +4,14 @@
 	<title>CC Tracker</title>
 	<meta charset="UTF-8" />
 	<!--<meta http-equiv="refresh" content="60" />-->
-	<link rel="stylesheet" type="text/css" href="pids.css" />
+	<link rel="stylesheet" type="text/css" href="css/pids.css" />
 
 	<!--Accuweather stylesheets cut down for necessary styles-->
-	<link rel="stylesheet" href="pages.css" />
-	<link rel="stylesheet" href="icons.css" />
+	<link rel="stylesheet" href="css/pages.css" />
+	<link rel="stylesheet" href="css/icons.css" />
 
-	<script type="text/javascript" src="jquery-1.4.3.js"></script>
-	<script type="text/javascript" src="slides.jquery.js"></script>
+	<script type="text/javascript" src="js/jquery-2.0.0.min.js"></script>
+	<script type="text/javascript" src="js/jquery.slides.min.js"></script>
 
 	<script type="text/javascript">
 		$(function(){
