@@ -44,12 +44,6 @@ body {
 	color: #fffd13;
 }
 
-/*Ripped from Accuweather*/
-#weather ul {
-	margin: 0;
-	list-style: none;
-}
-
 #weather {
 	width: 595px;
 	height: 286px;
@@ -58,32 +52,7 @@ body {
 	padding: 0;
 	margin: 0;
 	color: #333333;
-	background-color: #000000;
-}
-
-#weather ul.stats {
-	font-size: 10px;
-	line-height: 14px;
-	color: #8E8E8E;
-}
-#weather ul.stats li {
-	padding-left: 0;
-}
-#weather ul.stats strong {
-	color: #000000;
-	font-weight: bold;
-}
-
-#weather .night .cond, #weather .night .info .cond {
-	color: #ffffff !important;
-}
-
-#weather .night .temp {
-	color: #ffffff !important;
-}
-
-#weather .night .realfeel, #weather .night .lo, #weather .night .lo-label, #weather .night .hi {
-	color: #D1D3D9;
+	background-color: #bbbbbb;
 }
 
 /*WMATA status*/
