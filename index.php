@@ -108,12 +108,12 @@
 
 		<div id="weather">
 		<?php
-		$current = "";
 		$nws = simplexml_load_file('http://w1.weather.gov/xml/current_obs/WASD2.xml');
-		echo("Temp: " . $nws->temp_f . "°F<br />");
-		echo("Wind: " . $nws->wind_mph . " mph " . $nws->wind_dir . "<br />");
-		echo("Pressure: " . $nws->pressure_mb . " mb, " . $nws->pressure_tendency_mb > 0 ? "rising" : "falling" . "<br />");
-		echo($current);
+		echo("Temp: " . $nws->temp_f . "°F<br />\n");
+		echo("Wind: " . $nws->wind_mph . " mph " . $nws->wind_dir . "<br />\n");
+		echo("Pressure: " . $nws->pressure_mb . " mb, ");
+		echo($nws->pressure_tendency_mb > 0 ? "rising" : "falling");
+		echo("<br />\n");
 		?>
 		</div>
 	</div>
