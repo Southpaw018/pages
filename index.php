@@ -4,10 +4,6 @@
 	<title>CC Tracker</title>
 	<meta charset="UTF-8" />
 
-	<!--Accuweather stylesheets cut down for necessary styles-->
-	<link rel="stylesheet" href="css/pages.css" />
-	<link rel="stylesheet" href="css/icons.css" />
-
 	<script type="text/javascript" src="js/jquery-2.0.0.min.js"></script>
 	<script type="text/javascript" src="js/jquery.slides.min.js"></script>
 
@@ -113,12 +109,11 @@
 		<div id="weather">
 		<?php
 		$current = "";
-		$accuweather = new DOMDocument();
-		@$accuweather->loadHTMLFile("http://www.accuweather.com/en/us/takoma-park-md/20912/current-weather/2135463");
-		if ($accuweather->getElementById('detail-now')) {$current = $accuweather->saveXML($accuweather->getElementById('detail-now'));}
-		$current = str_replace("&#13;","",$current);
-		$current = str_replace(array('<![CDATA[',']]>'), array('//<![CDATA[','//]]>'), $current);
-		//$current = str_replace("src=\"/adc2010/images/icons-wind/","src=\"http://www.accuweather.com/adc2010/images/icons-wind/",$current);
+		$nws = simplexml_load_file('http://w1.weather.gov/xml/current_obs/WASD2.xml');
+		echo("Temp: " . $nws->temp_f);
+		echo("Wind: " . $nws->wind_mph . " " . $nws->wind_dir);
+		echo("Pressure: " . $nws->pressure_mb . " mb, " . $nws->pressure_tendency_mb > 0 ? "rising" : "falling");
+		echo("Temp: " . $nws->temp_f);
 		echo($current);
 		?>
 		</div>

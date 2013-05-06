@@ -33,6 +33,3 @@ function countdown() {
 	$('#countdown').text(count);
 	count--;
 };
-
-//Accuweather hack
-$.fn.flash = function(args) {acm_hasFlash = false; return false;}
