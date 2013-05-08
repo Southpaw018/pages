@@ -65,7 +65,7 @@
 		$incidentdata = @simplexml_load_file("http://api.wmata.com/Incidents.svc/Incidents?api_key=$api_key");
 		if (count($incidentdata->Incidents->Incident) == 0)
 		{
-			?><p>There are no rail incidents at this time.</p><?php
+			?><div class="status"><p>There are no rail incidents at this time.</p></div><?php
 		}
 		else
 		{
