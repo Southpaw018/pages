@@ -151,9 +151,9 @@ body {
 	font-size: 28px;
 }
 
-#clock p.ip {
+#clock p#countdown {
 	position: absolute;
-	color: #cccccc;
+	color: #808080;
 	margin-top: 15px;
 	margin-left: 3px;
 }

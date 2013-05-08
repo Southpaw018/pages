@@ -71,7 +71,7 @@
 		{
 			foreach ($incidentdata->Incidents->Incident as $incident)
 			{
-				echo("<div>\n");
+				echo("<div class=\"status\">\n");
 				$linesaffected = explode(';',(string)$incident->LinesAffected);
 				echo("<p class=\"line\">");
 				foreach ($linesaffected as $line)
@@ -125,7 +125,7 @@
 	<p class="time"><?php echo(date("g:i A")); ?></p>
 	<p class="date"><?php echo(date("n/j/Y, l")); ?></p>
 	<!--<p class="ip"><?php //echo($_SERVER['HTTP_HOST']); ?></p>-->
-	<p id="countdown" class="ip"></p>
+	<p id="countdown"></p>
 	</div>
 	<?php
 	/*To add:

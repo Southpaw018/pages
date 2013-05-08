@@ -3,6 +3,8 @@ var count = 60;
 
 $(document).ready(function() {
 	//Init rail slider
+	var multi = $('#rail-status div.status').length > 1 ? true : false;
+
 	$('#rail-status').slidesjs({
 		width: 409,
 		height: 245,
@@ -10,7 +12,7 @@ $(document).ready(function() {
 		play: {
 			active: false,
 			interval: 5000,
-			auto: true,
+			auto: multi,
 			effect: "fade"
 		},
 		effect: {
@@ -22,7 +24,7 @@ $(document).ready(function() {
 	});
 
 	//Page reload countdown
-	//var interval = setInterval("countdown()",1000);
+	var interval = setInterval("countdown()",1000);
 });
 
 function countdown() {
