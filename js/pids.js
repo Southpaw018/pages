@@ -11,7 +11,7 @@ $(document).ready(function() {
 			play: {
 				active: false,
 				interval: 5000,
-				auto: multi,
+				auto: true,
 				effect: "fade"
 			},
 			effect: {
