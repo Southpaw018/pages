@@ -22,7 +22,6 @@
 	{
 		foreach ($traindata->Trains->AIMPredictionTrainInfo as $train)
 		{
-			//$attr_check = $train->DestinationCode->attributes("i",true); //!isset($attr_check['nil'])
 			if ($train->Group == 2)
 			{
 				$x = array();
@@ -76,26 +75,7 @@
 				echo("<p class=\"line\">");
 				foreach ($linesaffected as $line)
 				{
-					/*switch ($line)
-					{
-						case "RD":
-							echo("<span class=\"red\">&bull;</span>");
-							break;
-						case "GR":
-							echo("<span class=\"green\">&bull;</span>");
-							break;
-						case "BL":
-							echo("<span class=\"blue\">&bull;</span>");
-							break;
-						case "OR":
-							echo("<span class=\"orange\">&bull;</span>");
-							break;
-						case "YL":
-							echo("<span class=\"yellow\">&bull;</span>");
-							break;
-					}*/
 					if ($line != "") {echo("<span class=\"".trim($line)."\">&bull;</span>");}
-					//print_r("-".$line.":".ord($line)."-");
 				}
 				unset($linesaffected);
 				echo("</p>\n");

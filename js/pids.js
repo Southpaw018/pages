@@ -3,25 +3,25 @@ var count = 60;
 
 $(document).ready(function() {
 	//Init rail slider
-	var multi = $('#rail-status div.status').length > 1 ? true : false;
-
-	$('#rail-status').slidesjs({
-		width: 409,
-		height: 245,
-		navigation: {active: false},
-		play: {
-			active: false,
-			interval: 5000,
-			auto: multi,
-			effect: "fade"
-		},
-		effect: {
-			fade: {
-				speed: 800,
-				crossfade: true
+	if ($('#rail-status div.status').length > 1) {
+		$('#rail-status').slidesjs({
+			width: 409,
+			height: 245,
+			navigation: {active: false},
+			play: {
+				active: false,
+				interval: 5000,
+				auto: multi,
+				effect: "fade"
+			},
+			effect: {
+				fade: {
+					speed: 800,
+					crossfade: true
+				}
 			}
-		}
-	});
+		});
+	}
 
 	//Page reload countdown
 	var interval = setInterval("countdown()",1000);
